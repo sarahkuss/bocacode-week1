@@ -11,11 +11,11 @@ switch(animal) {
 }
 
 function fruitColor(fruit) {
-    if(fruit = "strawberry") {
+    if (fruit === "strawberry") {
         console.log("red")
-    } else if (fruit = "blueberry") {
+    } else if (fruit === "blueberry") {
         console.log("blue")
-    } else if (fruit = "orange") {
+    } else if (fruit === "orange") {
             console.log("orange")
     }
 }
