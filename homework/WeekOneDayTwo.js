@@ -17,9 +17,11 @@ function fruitColor(fruit) {
         console.log("blue")
     } else if (fruit === "orange") {
             console.log("orange")
+    } else if (fruit === "banana") {
+        console.log("yellow")
     }
 }
-fruitColor("strawberry")
+fruitColor("blueberry")
 
 function addTwoNumbers(number1, number2) {
     const result = number1 + number2
