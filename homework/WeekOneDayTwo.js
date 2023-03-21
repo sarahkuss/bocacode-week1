@@ -10,7 +10,7 @@ switch(animal) {
         console.log("quack")
 }
 
-function fruitcolor(fruit) {
+function fruitColor(fruit) {
     if(fruit = "strawberry") {
         console.log("red")
     } else if (fruit = "blueberry") {
@@ -19,7 +19,7 @@ function fruitcolor(fruit) {
             console.log("orange")
     }
 }
-fruitcolor("strawberry")
+fruitColor("strawberry")
 
 function addTwoNumbers(number1, number2) {
     const result = number1 + number2
