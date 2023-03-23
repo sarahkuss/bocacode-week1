@@ -29,3 +29,21 @@ function addTwoNumbers(number1, number2) {
 }
 
 addTwoNumbers(17, 12)
+
+
+function fruitColor(fruit) {
+    let color
+    if (fruit === "strawberry") {
+        color = 'red'
+    } else if (fruit === "blueberry") {
+        color = 'blue'
+    } else if (fruit === "orange") {
+        color = 'orange'
+    } else if (fruit === "banana") {
+        color = 'yellow'
+    } 
+    return color
+}
+
+let response = fruitColor('orange')
+console.log(response)
