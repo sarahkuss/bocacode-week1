@@ -21,7 +21,7 @@ function assignGrade(grade) {
     } return letterGrade
  } 
 
-let finalGrade = assignGrade(50)
+let finalGrade = assignGrade(70)
 console.log(finalGrade)
 
 ///////////////////////////////////////////
