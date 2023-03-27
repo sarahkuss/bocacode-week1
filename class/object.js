@@ -13,3 +13,12 @@ const shirtLike = shirt1.like
 
 console.log("size:", shirtSize)
 console.log("like:", shirtLike)
+
+
+const dragonRoll = {
+    wrap: 'nori',
+    carb: 'rice',
+    protein: 'dragon',
+    numVegetables: 3,
+    yummy: true
+}
