@@ -136,3 +136,26 @@ console.log(newStr)
 // }
 
 // console.log(newString)
+
+//function that returns number of true values in array
+const testArray1 = [ true, false, false, true, false, false, false, true, true, true, false, ]
+const testArray2 = [ true, false, false, true, null, false, 0, 1, "false"]
+
+
+function trueValues (array) {
+  let isTrue = []
+  for (i = 0; i < array.length; i++)
+  if (array[i] === true) {
+    isTrue.push(array[i])
+  } return isTrue.length
+}
+console.log(trueValues(testArray1))
+
+// function that counts down 20 to 1 then says blast off
+
+function blastoff (char) {
+  for (i = 20; i > 0; i--) {
+    console.log(i)
+  } console.log('Blast Off 🚀')
+}
+blastoff()
