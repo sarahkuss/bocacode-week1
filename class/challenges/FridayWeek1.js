@@ -155,7 +155,7 @@ console.log(trueValues(testArray1))
 
 function blastoff (char) {
   for (i = 20; i > 0; i--) {
-    console.log(i)
+    console.log(i + ' *'.repeat(i))
   } console.log('Blast Off 🚀')
 }
 blastoff()
