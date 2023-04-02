@@ -96,26 +96,47 @@ function getOdd2 (array) {
 console.log(getOdd2(countNumber))
 
 // Challenge 6 Multiplication Table
-// let result = ' X '
-// for (let i = 0; i < 11; i++) {
+let result = ' X '
+for (let i = 0; i < 11; i++) {
 
-//     for (let j = 0; j < 11; j++) {
+    for (let j = 0; j < 11; j++) {
 
-//         if(i === 0 && j > 0){
-//           result += '[' + j + ']'
-//         } 
-//         else if(j === 0 && i>0){
-//           result += '[' + i + '] '
-//         } 
-//         else if(i>0 && j>0){
-//         result += (i*j) + ' '
-//         }
-//     }
-//     result += '\n'
-// }
+        if(i === 0 && j > 0){
+          result += `[${j}]`
+        } 
+        else if(j === 0 && i>0){
+          result += `[${i}]`
+        } 
+        else if(i>0 && j>0){
+        result +=  ` ${i*j} `
+        }
+    }
+    result += '\n'
+}
 
-// console.log(result)
+console.log(result)
 
+
+const size = 10;
+
+// Create a nested for loop to iterate over rows and columns
+for (let i = 1; i <= size; i++) {
+  // Create a variable to hold the row values
+  let row = '';
+  
+  for (let j = 1; j <= size; j++) {
+    // Multiply the row and column indices to get the value
+    const value = i * j;
+    
+    // Add the value to the row string with formatting
+    row += `${value}\t`;
+  }
+  
+  // Output the completed row to the console
+  console.log(row);
+}
+
+//palindrome 
 let palindrome = 'Racecar'
 let newStr = ''
 for (i = palindrome.length - 1; i >= 0; i--) {
@@ -144,12 +165,13 @@ const testArray2 = [ true, false, false, true, null, false, 0, 1, "false"]
 
 function trueValues (array) {
   let isTrue = []
-  for (i = 0; i < array.length; i++)
+  for (i = 0; i < array.length; i++) {
   if (array[i] === true) {
     isTrue.push(array[i])
+  }
   } return isTrue.length
 }
-console.log(trueValues(testArray1))
+console.log(trueValues(testArray2))
 
 // function that counts down 20 to 1 then says blast off
 
@@ -159,3 +181,4 @@ function blastoff (char) {
   } console.log('Blast Off 🚀')
 }
 blastoff()
+

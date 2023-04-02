@@ -22,3 +22,20 @@ const dragonRoll = {
     numVegetables: 3,
     yummy: true
 }
+
+
+// destructuring
+const person = {
+    firstName: 'Jiho',
+    lastName: 'Sohn',
+    age: 46,
+    ethnicity: 'Korean',
+    awesome: true,
+    partner: {
+        firstName: 'Ruth',
+        age: 34,
+        ethnicity: 'Jamaican',
+        siblings: []
+    }
+}
+const { firstName, lastName, age, ethnicity, awesome } = person
